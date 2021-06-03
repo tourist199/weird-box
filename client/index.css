@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Dogica Pixel";
+  src: url("./assets/fonts/dogicapixel.ttf");
+}
+
+@font-face {
+  font-family: "Main Font";
+  src: url("./assets/fonts/VT323-Regular.ttf");
+}
+
+html {
+  font-size: 14px;
+  font-family: "Main Font";
+  color: black;
+  image-rendering: optimizeSpeed;
+  image-rendering: pixelated;
+}
+
+#notification {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
